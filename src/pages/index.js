@@ -3,8 +3,11 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 
-const BlogIndex = ({ location }) => {
-  return <Layout location={location}>Index Page</Layout>
+const BlogIndex = ({ data, location }) => {
+  return <Layout location={location}>
+
+    <div>{data.site.siteMetadata.title}</div>
+  </Layout>
 }
 
 export default BlogIndex
