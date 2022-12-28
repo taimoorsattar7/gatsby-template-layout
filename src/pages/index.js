@@ -7,6 +7,7 @@ const BlogIndex = ({ data, location }) => {
   return <Layout location={location}>
 
     <div>{data.site.siteMetadata.title}</div>
+    <p>Hi there!!!</p>
   </Layout>
 }
 
