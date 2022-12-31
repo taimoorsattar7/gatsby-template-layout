@@ -1,14 +1,17 @@
 import React from "react"
 
+import Header from "@components/header"
+import Footer from "@components/footer"
+
 const Layout = ({ location, children }) => {
-
   return (
-    <div>
-      <header>Header</header>
+    <>
+      <Header location={location} />
 
-      <main>{children}</main>
-      <footer>Footer</footer>
-    </div>
+      <main className="container max-w-2xl px-5 py-10 mx-auto">{children}</main>
+
+      <Footer />
+    </>
   )
 }
 

@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-tailwind-starter",
+  "name": "gatsby-template-layout",
   "private": true,
-  "description": "Gatsby Tailwind Starter",
+  "description": "Gatsby Template Layout",
   "version": "0.1.0",
   "author": "Taimoor Sattar",
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
-    "gatsby-plugin-postcss": "^6.3.0",
+    "gatsby-plugin-postcss": "5.0.0",
     "lint-staged": "^12.1.2",
     "postcss": "^8.4.20",
     "prettier": "^2.5.1",
