@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter template`,
+    title: `Gatsby Tailwind Starter`,
   },
   plugins: [],
 }
